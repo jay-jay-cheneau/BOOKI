@@ -1,0 +1,28 @@
+.color-bleu {
+  color: #0065fc;
+}
+
+.color-bleu-clair {
+  color: #deebff;
+}
+
+.color-gris {
+  color: #f2f2f2;
+}
+
+.back-bleu {
+  background-color: #0065fc;
+}
+
+.back-bleu-clair {
+  background-color: #deebff;
+}
+
+.back-gris {
+  background-color: #f2f2f2;
+}
+@media screen and (min-width:768px){
+  .back-gris-mobile-none{
+    background-color: #f2f2f2;
+  }
+}
