@@ -19,6 +19,13 @@
   flex-wrap: wrap;
 }
 
+.flex-between-nowrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 .flex-column-centre {
   display: flex;
   flex-direction: column;
