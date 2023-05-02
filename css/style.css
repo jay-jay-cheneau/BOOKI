@@ -629,6 +629,10 @@ flex-direction: column;
 	footer>div {
 		flex-direction: column;
 	}
+  footer>div>section {
+		width: auto;
+	}
+
 
 	.cube-hebergements {
 		width: calc(100% - 10px);
