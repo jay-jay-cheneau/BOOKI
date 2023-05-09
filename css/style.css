@@ -48,6 +48,12 @@ main {
     font-weight: bold;
 }
 
+.top-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 /* bar Nav */
 .taille-nav {
     height: auto;
@@ -202,6 +208,7 @@ main {
 
 h2 {
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 #hebergements {
@@ -417,6 +424,10 @@ h2 {
 footer {
     background-color: #f2f2f2;
     padding: 2rem 3rem;
+}
+
+footer p{
+   margin-top: 5px; 
 }
 
 footer > div > div {
