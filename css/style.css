@@ -180,7 +180,7 @@ main {
 }
 
 .filtre-texte {
-    border-radius: 0 25px 25px 0;
+    border-radius: 25px 25px 25px 25px;
     font-size: 16px;
 }
 
