@@ -54,7 +54,7 @@ main {
     gap: 15px;
 }
 
-/* bar Nav */
+/* =============================== bar Nav ===============================  */
 .taille-nav {
     height: auto;
 }
@@ -96,7 +96,7 @@ main {
     height: 20px;
 }
 
-/* Le Header */
+/*  =============================== Le Header  =============================== */
 .bordure-search {
     display: flex;
     border-top-right-radius: 15px;
@@ -189,7 +189,7 @@ main {
     color: #0065fc;
 }
 
-/*  ICONE */
+/*  ===============================  ICONE  =============================== */
 .info {
     display: flex;
     align-items: center;
@@ -227,7 +227,7 @@ h2 {
     bottom: 5%;
 }
 
-/* Les Hébergements */
+/*  =============================== Les Hébergements ===============================  */
 .size-hebergements,
 .size-populaires {
     border-radius: 10px;
@@ -296,7 +296,7 @@ h2 {
     border-radius: 15px 15px 0 0;
 }
 
-/* Les  Populaires */
+/*  =============================== Les  Populaires ===============================  */
 .bloc-hebergements,
 .bloc-populaires {
     height: 100%;
@@ -415,11 +415,8 @@ h2 {
     padding-left: 15px;
 }
 
-/* h3 {
-	font-weight: inherit;
-}
 
-/* Le footer */
+/*  =============================== Le footer  =============================== */
 
 footer {
     background-color: #f2f2f2;
@@ -457,7 +454,7 @@ footer > div section {
     display: none;
 }
 
-/* Le responsive 992*/
+/*  =============================== Le responsive 992 =============================== */
 @media screen and (max-width: 992px) {
     #hebergements {
         grid-template-columns: 1fr;
@@ -509,7 +506,7 @@ footer > div section {
     margin-right: inherit;
 }
 
-/* Le responsive 768*/
+/*  =============================== Le responsive 768 =============================== */
 @media screen and (max-width: 768px) {
     .size-lien12 {
         width: 100%;
@@ -667,6 +664,7 @@ footer > div section {
     }
     footer > div > section {
         width: auto;
+        padding: 5px;
     }
 
     .cube-hebergements {
@@ -678,9 +676,15 @@ footer > div section {
     }
 
     .filtre-texte-icons {
-        font-size: 10px;
+        font-size: 15px;
         width: calc(50% - 5px);
         flex-direction: row;
         justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .filtre-texte-icons {
+        font-size: 10px;
     }
 }
